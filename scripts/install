@@ -22,8 +22,7 @@ ynh_abort_if_errors
 
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
-is_public=$YNH_APP_ARG_IS_PUBLIClanguage=$YNH_APlanguage=$YNH_APP_ARG_LANGUAGEP_ARG_LANGUAGE
-
+is_public=$YNH_APP_ARG_IS_PUBLIC
 # This is a multi-instance app, meaning it can be installed several times independently
 # The id of the app as stated in the manifest is available as $YNH_APP_ID
 # The instance number is available as $YNH_APP_INSTANCE_NUMBER (equals "1", "2", ...)
