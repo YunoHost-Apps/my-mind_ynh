@@ -1,6 +1,7 @@
 # My-Mind for YunoHost
 
 [![Install my-mind with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=my-mind)
+<strong>Version:</strong> 1.0 <br><br>
 * [Yunohost project](https://yunohost.org)
 * [My-Mind official web page](http://my-mind.github.io/)
 * [Sample mind map](http://my-mind.github.io/?map=examples/features.mymind) showcasing many features

@@ -5,7 +5,7 @@
     "description": {
         "en": "Online Mindmapping Software"
     },
-    "version": "0.0",
+    "version": "1.0",
     "url": "https://github.com/ondras/my-mind",
     "license": "MIT",
     "maintainer": {
@@ -51,6 +51,6 @@
                 },
                 "default": true
             }
-        ]
+      ]
     }
 }
