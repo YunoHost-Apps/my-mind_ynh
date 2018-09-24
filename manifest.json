@@ -3,7 +3,8 @@
     "id": "my-mind",
     "packaging_format": 1,
     "description": {
-        "en": "Online Mindmapping Software"
+        "en": "Online Mindmapping Software",
+        "fr": "Editeur de mindmaps, carte mentales"
     },
     "version": "1.0",
     "url": "https://github.com/ondras/my-mind",
