@@ -25,8 +25,8 @@
 	Level 1=auto
 	Level 2=auto
 	Level 3=auto
-# Level 4:
-	Level 4=0
+# Level 4: #App do not require Ldap support as there is no login 
+	Level 4=na
 # Level 5:
 	Level 5=auto
 	Level 6=auto
