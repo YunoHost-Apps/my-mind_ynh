@@ -6,16 +6,16 @@
         "en": "Online Mindmapping Software",
         "fr": "Editeur de mindmaps, carte mentales"
     },
-    "version": "1.1~ynh1",
+    "version": "1.2~ynh1",
     "url": "https://github.com/ondras/my-mind",
     "license": "MIT",
     "maintainer": {
         "name": "Anmol Sharma",
         "email": "anmol@datamol.org",
-        "url": "https://datamol.orgs"
+        "url": "https://datamol.org"
     },
     "requirements": {
-        "yunohost": ">= 3.0.0"
+        "yunohost": ">= 3.5"
     },
     "multi_instance": true,
     "services": [

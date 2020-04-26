@@ -3,7 +3,10 @@
 [![Integration level](https://dash.yunohost.org/integration/my-mind.svg)](https://dash.yunohost.org/appci/app/my-mind)  
 [![Install my-mind with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=my-mind)
 
-<strong>Version:</strong> 1.1 <br><br>
+> *This package allow you to install my-mind quickly and simply on a YunoHost server.  
+If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
+
+<strong>Version:</strong> 1.2 <br><br>
 * [Yunohost project](https://yunohost.org)
 * [My-Mind official web page](http://my-mind.github.io/)
 * [Sample mind map](http://my-mind.github.io/?map=examples/features.mymind) showcasing many features

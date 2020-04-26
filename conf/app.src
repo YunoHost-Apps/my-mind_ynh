@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/ondras/my-mind/archive/v1.1.tar.gz
-SOURCE_SUM=b9376294093da651c87a2352ee6d2a26c850e5a9bedc4320c87f215140574387
+SOURCE_URL=https://github.com/ondras/my-mind/archive/v1.2.tar.gz
+SOURCE_SUM=b1cfc9bf97bd6b073346f52a789cdafedc4d29f0d8bd4e646f7998392c1a8647
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
