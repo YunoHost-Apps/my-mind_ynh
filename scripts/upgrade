@@ -20,6 +20,7 @@ domain=$(ynh_app_setting_get --app=$app --key=domain)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
 is_public=$(ynh_app_setting_get --app=$app --key=is_public)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
 # ENSURE DOWNWARD COMPATIBILITY
@@ -74,7 +75,6 @@ ynh_script_progression --message="Upgrading nginx web server configuration..." -
 # Create a dedicated nginx config
 ynh_add_nginx_config
 
-
 #=================================================
 # CREATE DEDICATED USER
 #=================================================
@@ -89,8 +89,7 @@ ynh_system_user_create --username=$app
 ynh_script_progression --message="Upgrading php-fpm configuration..." --time --weight=1
 
 # Create a dedicated php-fpm config
-ynh_add_fpm_config
-
+ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION
 
 #=================================================
 # SETUP APPLICATION WITH CURL
@@ -98,19 +97,6 @@ ynh_add_fpm_config
 
 # Set right permissions for curl install
 chown -R $app: $final_path
-
-
-#=================================================
-# SETUP SSOWAT
-#=================================================
-ynh_script_progression --message="Upgrading SSOwat configuration..." --time --weight=1
-
-# Make app public if necessary
-if [ $is_public -eq 1 ]
-then
-	# unprotected_uris allows SSO credentials to be passed anyway
-	ynh_app_setting_set --app=$app --key=unprotected_uris --value="/"
-fi
 
 #=================================================
 # RELOAD NGINX
@@ -123,4 +109,4 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Upgrade of $app completed" --time --last
+ynh_script_progression --message="Upgrade of $app completed" --last
