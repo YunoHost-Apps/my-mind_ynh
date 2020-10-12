@@ -1,4 +1,4 @@
-# My-Mind for YunoHost
+# My Mind for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/my-mind.svg)](https://dash.yunohost.org/appci/app/my-mind) ![](https://ci-apps.yunohost.org/ci/badges/my-mind.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/my-mind.maintain.svg)  
 [![Install My Mind with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=my-mind)
