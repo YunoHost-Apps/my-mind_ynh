@@ -1,7 +1,7 @@
 # My Mind for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/my-mind.svg)](https://dash.yunohost.org/appci/app/my-mind) ![](https://ci-apps.yunohost.org/ci/badges/my-mind.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/my-mind.maintain.svg)  
-[![Install My Mind with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=my-mind)
+[![Install My Mind with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=my-mind)
 
 > *This package allow you to install My Mind quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
@@ -30,12 +30,12 @@ New to mind maps? They are useful, aesthetic and cool! Read more about these spe
 #### Multi-user support
 
  * Are LDAP and HTTP auth supported? **No**
-* Can the app be used by multiple users? **Yes**
+ * Can the app be used by multiple users? **Yes**
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/my-mind%20%28Community%29.svg)](https://ci-apps.yunohost.org/ci/apps/my-mind/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/my-mind%20%28Community%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/my-mind/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/my-mind.svg)](https://ci-apps.yunohost.org/ci/apps/my-mind/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/my-mind.svg)](https://ci-apps-arm.yunohost.org/ci/apps/my-mind/)
 
 ## Limitations
 
