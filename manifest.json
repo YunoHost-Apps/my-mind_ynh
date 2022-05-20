@@ -6,7 +6,7 @@
         "en": "Online Mindmapping Software",
         "fr": "Éditeur de cartes mentales"
     },
-    "version": "1.2~ynh3",
+    "version": "2.0~ynh1",
     "url": "https://github.com/ondras/my-mind",
     "upstream": {
         "license": "MIT",
@@ -23,24 +23,23 @@
         "url": "https://datamol.org"
     },
     "requirements": {
-        "yunohost": ">= 4.2.4"
+        "yunohost": ">= 4.3.0"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm"
+        "php8.0-fpm"
     ],
     "arguments": {
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
                 "type": "path",
-                "example": "/example",
+                "example": "/mymind",
                 "default": "/mymind"
             },
             {
