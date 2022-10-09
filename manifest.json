@@ -13,7 +13,6 @@
         "website": "https://github.com/ondras/my-mind",
         "demo": "http://my-mind.github.io/?map=examples/features.mymind",
         "admindoc": "https://github.com/ondras/my-mind/wiki",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/ondras/my-mind"
     },
     "license": "MIT",
