@@ -5,31 +5,30 @@ It shall NOT be edited by hand.
 
 # My Mind pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/my-mind.svg)](https://dash.yunohost.org/appci/app/my-mind) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/my-mind.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/my-mind.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/my-mind.svg)](https://dash.yunohost.org/appci/app/my-mind) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/my-mind.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/my-mind.maintain.svg)  
 [![Installer My Mind avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=my-mind)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer My Mind rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer My Mind rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 My Mind is a web application for creating and managing Mind maps. It is free to use and you can fork its source code.
 
-**Version incluse :** 2.0~ynh2
+**Version incluse :** 2.0~ynh3
 
 **Démo :** http://my-mind.github.io/?map=examples/features.mymind
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de My Mind](./doc/screenshots/screenshot.png)
+![Capture d’écran de My Mind](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://github.com/ondras/my-mind>
-* Documentation officielle de l'admin : <https://github.com/ondras/my-mind/wiki>
-* Dépôt de code officiel de l'app : <https://github.com/ondras/my-mind>
+* Documentation officielle de l’admin : <https://github.com/ondras/my-mind/wiki>
+* Dépôt de code officiel de l’app : <https://github.com/ondras/my-mind>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_my-mind>
 * Signaler un bug : <https://github.com/YunoHost-Apps/my-mind_ynh/issues>
 
@@ -45,4 +44,4 @@ ou
 sudo yunohost app upgrade my-mind -u https://github.com/YunoHost-Apps/my-mind_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
