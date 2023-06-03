@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 My Mind is a web application for creating and managing Mind maps. It is free to use and you can fork its source code.
 
-**Version incluse :** 2.0~ynh3
+**Version incluse :** 2.0~ynh4
 
 **Démo :** http://my-mind.github.io/?map=examples/features.mymind
 
