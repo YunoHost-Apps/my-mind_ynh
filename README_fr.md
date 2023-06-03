@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # My Mind pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/my-mind.svg)](https://dash.yunohost.org/appci/app/my-mind) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/my-mind.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/my-mind.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/my-mind.svg)](https://dash.yunohost.org/appci/app/my-mind) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/my-mind.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/my-mind.maintain.svg)
+
 [![Installer My Mind avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=my-mind)
 
 *[Read this readme in english.](./README.md)*
@@ -17,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 My Mind is a web application for creating and managing Mind maps. It is free to use and you can fork its source code.
 
-**Version incluse :** 2.0~ynh3
+**Version incluse :** 2.0~ynh4
 
 **Démo :** http://my-mind.github.io/?map=examples/features.mymind
 
