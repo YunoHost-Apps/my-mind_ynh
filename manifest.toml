@@ -1,0 +1,51 @@
+packaging_format = 2
+
+id = "my-mind"
+name = "My Mind"
+description.en = "Online Mindmapping Software"
+description.fr = "Éditeur de cartes mentales"
+
+version = "2.0~ynh3"
+
+maintainers = ["Anmol Sharma"]
+
+[upstream]
+license = "MIT"
+demo = "http://my-mind.github.io/?map=examples/features.mymind"
+admindoc = "https://github.com/ondras/my-mind/wiki"
+code = "https://github.com/ondras/my-mind"
+
+[integration]
+yunohost = ">= 11.1.19"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/mymind"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/ondras/my-mind/archive/v2.0.tar.gz"
+        sha256 = "0ea718f800c2e778cd649132fcfd9c9836815258733295e4998a44e9d91be7a7"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
