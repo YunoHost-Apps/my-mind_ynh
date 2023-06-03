@@ -14,7 +14,6 @@ license = "MIT"
 demo = "http://my-mind.github.io/?map=examples/features.mymind"
 admindoc = "https://github.com/ondras/my-mind/wiki"
 code = "https://github.com/ondras/my-mind"
-website = "https://github.com/ondras/my-mind"
 
 [integration]
 yunohost = ">= 11.1.19"
