@@ -30,7 +30,7 @@ My Mind is a web application for creating and managing Mind maps. It is free to 
 
 * Documentation officielle de l’admin : <https://github.com/ondras/my-mind/wiki>
 * Dépôt de code officiel de l’app : <https://github.com/ondras/my-mind>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_my-mind>
+* YunoHost Store: <https://apps.yunohost.org/app/my-mind>
 * Signaler un bug : <https://github.com/YunoHost-Apps/my-mind_ynh/issues>
 
 ## Informations pour les développeurs
