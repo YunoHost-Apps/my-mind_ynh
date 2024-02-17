@@ -5,7 +5,7 @@ name = "My Mind"
 description.en = "Online Mindmapping Software"
 description.fr = "Éditeur de cartes mentales"
 
-version = "2.0~ynh4"
+version = "v2.0~ynh1"
 
 maintainers = ["Anmol Sharma"]
 
@@ -39,7 +39,7 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/ondras/my-mind/archive/v2.0.tar.gz"
+        url = "https://github.com/ondras/my-mind/archive/refs/tags/v2.0.tar.gz"
         sha256 = "0ea718f800c2e778cd649132fcfd9c9836815258733295e4998a44e9d91be7a7"
         autoupdate.strategy = "latest_github_tag"
 
