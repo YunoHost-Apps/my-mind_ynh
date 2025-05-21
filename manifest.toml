@@ -5,7 +5,7 @@ name = "My Mind"
 description.en = "Online Mindmapping Software"
 description.fr = "Éditeur de cartes mentales"
 
-version = "2.0~ynh4"
+version = "2.0~ynh5"
 
 maintainers = []
 
